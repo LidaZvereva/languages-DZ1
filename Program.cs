@@ -1,6 +1,4 @@
-﻿// задача 2
-// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
-// a = 5; b = 7 -> max = 7
+﻿//5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
@@ -14,7 +12,9 @@
 // Console.WriteLine(number2);
 // }
 // else
-// {
+// { задача 2
+// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+// a = 
 // Console.WriteLine(number1);
 // }
 
@@ -50,14 +50,31 @@
 // -3 -> нет
 // 7 -> нет
 
-System.Console.Write("Enter number : ");
-int number1 = Convert.ToInt32(Console.ReadLine());
+// System.Console.Write("Enter number : ");
+// int number1 = Convert.ToInt32(Console.ReadLine());
 
- if(number1 % 2 == 0)
-{
-Console.WriteLine( "Yes");
-}
-else
-{
-Console.WriteLine( "No");
-}
+// if(number1 % 2 == 0)
+// {
+// Console.WriteLine( "Yes");
+// }
+// else
+// {
+// Console.WriteLine( "No");
+// }
+
+// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+// System.Console.Write("Enter number : ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int number2 = 1;
+// while(number2 <= number){
+// if(number2 % 2 == 0)
+
+// Console.Write(number2 + ",");
+
+// else{
+// }
+// ++number2;
+// }
